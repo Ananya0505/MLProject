@@ -1,0 +1,13 @@
+prefix=/Users/ananya/MLProject/myenv
+exec_prefix=/Users/ananya/MLProject/myenv
+libdir=/Users/ananya/MLProject/myenv/lib
+sharedlibdir=/Users/ananya/MLProject/myenv/lib
+includedir=/Users/ananya/MLProject/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
